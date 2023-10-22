@@ -41,9 +41,9 @@
       },
       {
         "Name": "Probability added per night ",
-        "Description": "The percentage of you getting a death anim (Be it randomized or not).",
+        "Description": "The percentage added per night to the initial percentage. Can be negative.",
         "DefaultValue": "5.00",
-        "Regex": "^(100|([0-9]{1,2})(\\.[0-9]{1,3}))?$",
+        "Regex": "^(-)?(100|([0-9]{1,2})(\\.[0-9]{1,3}))?$",
         "CharacterLimit": 7,
         "AvailableInGame": false
       }
