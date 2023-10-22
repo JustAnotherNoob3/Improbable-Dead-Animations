@@ -52,7 +52,7 @@ namespace Main
         public static float probability = 0;
         [HarmonyPostfix]
         public static void AddMessage(GameSimulation __instance, GameInfo gameInfo){
-            if(!ModSettings.GetBool("Improbable Dead Animations","JAN.improbabledeadanims")) return;
+            if(!ModSettings.GetBool("Improbable Death Animations","JAN.improbabledeadanims")) return;
             if(gameInfo.gamePhase != GamePhase.PLAY)return;
             if(!Pepper.AmIAlive()) return;
             PlayPhase playPhase = __instance.playPhaseState.Get().playPhase;

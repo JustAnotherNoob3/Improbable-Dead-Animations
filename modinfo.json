@@ -1,6 +1,6 @@
 {
   "HarmonyId": "JAN.improbabledeadanims",
-  "DisplayName": "Improbable Dead Animations",
+  "DisplayName": "Improbable Death Animations",
   "Authors": [
     "JAN"
   ],
@@ -18,7 +18,7 @@
         "AvailableInGame": false
       },
       {
-        "Name": "Improbable Dead Animations",
+        "Name": "Improbable Death Animations",
         "Description": "Deactivate this to not have the game randomizing whether you see or not the death anim if you only want the random death anims.",
         "DefaultValue": true,
         "AvailableInGame": false
