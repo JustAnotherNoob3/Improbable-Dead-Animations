@@ -1,0 +1,52 @@
+{
+  "HarmonyId": "JAN.improbabledeadanims",
+  "DisplayName": "Improbable Dead Animations",
+  "Authors": [
+    "JAN"
+  ],
+  "Description": "Death animations will occur more rarely, which will make you appreciate them more!",
+  "Version": "1.0.0",
+  "RequiredMods": [],
+  "Settings": {
+    "CheckboxSettings": 
+    [
+      
+      {
+        "Name": "Use smart probabilities",
+        "Description": "With each passing night, it will be more and more probable you get a death animation.",
+        "DefaultValue": true,
+        "AvailableInGame": false
+      },
+      {
+        "Name": "Improbable Dead Animations",
+        "Description": "Deactivate this to not have the game randomizing whether you see or not the death anim if you only want the random death anims.",
+        "DefaultValue": true,
+        "AvailableInGame": false
+      },
+      {
+        "Name": "Random Death Animations",
+        "Description": "Yeah, CL killed you but it appeared to be an arso, crazy.",
+        "DefaultValue": false,
+        "AvailableInGame": false
+      }
+    ],
+    "TextInputSettings": [
+      {
+        "Name": "Probability of the Death Anims ",
+        "Description": "The percentage of you getting a death anim (Be it randomized or not).",
+        "DefaultValue": "15.00",
+        "Regex": "^(100|([0-9]{1,2})(\\.[0-9]{1,3}))?$",
+        "CharacterLimit": 7,
+        "AvailableInGame": false
+      },
+      {
+        "Name": "Probability added per night ",
+        "Description": "The percentage of you getting a death anim (Be it randomized or not).",
+        "DefaultValue": "5.00",
+        "Regex": "^(100|([0-9]{1,2})(\\.[0-9]{1,3}))?$",
+        "CharacterLimit": 7,
+        "AvailableInGame": false
+      }
+    ]
+  }
+}
