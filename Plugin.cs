@@ -64,8 +64,8 @@ namespace Main
             PlayPhase playPhase = __instance.playPhaseState.Get().playPhase;
             if (playPhase == PlayPhase.FIRST_DISCUSSION)
             {
-                probability = float.Parse(ModSettings.GetString("Probability of the Death Anims", "JAN.improbabledeadanims"), CultureInfo.InvariantCulture.NumberFormat) * 1000;
-                sprobability = float.Parse(ModSettings.GetString("Probability added per night", "JAN.improbabledeadanims"), CultureInfo.InvariantCulture.NumberFormat) * 1000;
+                probability = float.Parse(ModSettings.GetString("Probability of the Death Anims ", "JAN.improbabledeadanims"), CultureInfo.InvariantCulture.NumberFormat) * 1000;
+                sprobability = float.Parse(ModSettings.GetString("Probability added per night ", "JAN.improbabledeadanims"), CultureInfo.InvariantCulture.NumberFormat) * 1000;
                 smart = ModSettings.GetBool("Use smart probabilities", "JAN.improbabledeadanims");
                 return;
             }
